@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+
+:root{
+    background-color: rgb(0, 0, 0);
+}
+
+*{
+    margin: 1.5rem;
+}
+/*
+.container1{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0%;
+}
+
+#progressbar{
+    width: 100%;
+    border-radius: 50px;
+    margin: 0%;
+    background-color: blueviolet;
+    border: 10rem rgba(3, 100, 0, 0.8);
+}
+
+#stats{
+    display: flex;
+    margin: 0%;
+}
+
+
+#question-number{
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flexbox;
+    width: 30%;
+}
+
+#Score{
+    color: aliceblue;
+    font-size: 2rem;
+    margin-left: 780px;
+    text-align: right;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flexbox;
+}
+*/
+
+#container2{
+    background-color: rgb(0, 0, 0);
+    margin:auto
+}
+
+#quiz{
+    text-align: center;
+    margin-top: 0%;
+}
+
+#question{
+    background-color: rgb(178, 179, 177);
+    font-size: 1.8rem;
+    margin: auto;
+    margin-top: 0%;
+    margin-bottom: 4rem;
+    margin-left: 8%;
+    width: 80%;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+}
+
+.options{
+    background-color:powderblue;
+    text-align: left;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    margin-left: 10%;
+    width: 75%;
+    font-size: 1.75rem;
+    display:flex;
+    border-radius: 0.75rem;
+    box-shadow: 0 1rem 1rem -0.75rem rgba(0, 0, 100, 0.8);
+    font-family: 'Recursive', sans-serif;
+}
+
+.options:hover{
+    cursor: grab;
+    transform: scale(1.02);
+    background-color:rgb(209, 192, 118);
+}
+
+.answer{
+    margin-top: 3.4%;
+    margin-left: 5%;
+}
+
+.stats{
+    display: flex;
+}
+
+#submit{
+    background-color:darkkhaki;
+    text-align:center;
+    font-size: 2rem;
+    border-radius: 15rem;
+    margin: auto;
+    margin-top: 5%;
+    display: block;
+    width: 30%;
+    height: 80px;
+    font-family: 'Recursive', sans-serif;  
+}
+
+#submit:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+    background-color:rgb(79, 129, 179);
+}
+
+

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+:root{
+    background-color:rgb(0, 0, 0);
+}
+
+*{ 
+    box-sizing: border-box;
+    margin: 5%;
+    margin-top: 8%;
+    font-size: 1.2rem;
+    font-family: 'Graduate', cursive;
+}
+
+h1{
+    font-size: 6rem;
+    color: rgb(116, 223, 255);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.menu{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.container1{
+    display:list-item;
+}
+
+.buttons{
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    background-color:rgb(112, 184, 206);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 5px;
+    border-width: 0;
+    border-style:none;
+}
+
+#start_button:hover{
+    cursor: pointer;
+    transform:scale(1.05);
+}
+
